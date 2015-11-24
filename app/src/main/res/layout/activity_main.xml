@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.mozilla.nalexander.bug1204559.MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="{&quot;uid&quot;:&quot;d0ac33eb74094eec80cf2001498d9ba4&quot;,&quot;sessionToken&quot;:&quot;32975f8e68c4cb487ac5d561ed21819d3582a602c4b0ec3c3cf24cbefa7b2247&quot;,&quot;certificate&quot;:&quot;eyJhbGciOiJSUzI1NiJ9.eyJwdWJsaWMta2V5Ijp7ImciOiI0NTdmNjdkNzdhMTZiZTZiZWIxMzVmMjgzMjExNDUwY2QwNGUyNWVkZGM2NzYxYjY3MjczM2IyZDU0NmZiZDFkZDI0YTM2NTE4MGE3MDljZDViNjU3OWU3NGI3MTVhYzgxZjM5NDJkMGQwODcwOWMxNDM0MGE3MWRmOWNmZTE0ZjI4YjUxZTg1MTkwNjFiZWUwMTY2NTViNDA0Y2MwYzJmM2Y4MzJkMTY3NzRkNzJjOTAwZTg1MWYwNzgyYmQxY2EwYzI3N2ExNzczMzk4MWQxZDgxMjY4YThjNjY0Njc5OTZhMDk2ZjVkNmE1NmRjYTU5YzVjOGIzYzBmYzljZGFiIiwicSI6ImRiZThkYThiZjgwZTZjMGQ3NTA4MzNlODkyZTFjYTBlZjFjYmY3MDEiLCJ5IjoiNzU3ZTZmNjQ4MjM4MDU1YWY0MDIzODIxZDBkMzQyZGRhM2RiN2MzOWU1MzkwMzZmOWVlZDYxY2E3MTZkYzMzOTUwODZkMTdlMDJhMjM2ZmIxMGVkNTc5Njk4OGU0M2FlNWNlODE3YTQ2ZTY3YjQ2NDczNGJlZTM3OWE0OTIwYjU1MDc3MzZhY2ZiYzk1ODI0ZTgyODc5N2YxYTc5YjIwNjc0NGVkN2NjNTdlZmY1NWJkMmEyMjFmMTE4MjQ1ZjJhMjVhNjcwNmYxNDliNjI0Y2Q4YmFiZjg5ZTdiYzJhNDdjMDY2NDYzNjQ3MjY5NjVlMTA1NDJiMjA4ODRhNjQ3OSIsInAiOiJjOGRmZWVmNzhlMzliMWQ1ZWFhMzU4MjRhN2RiNzk1YTZhNjJlNWM4OWQ3MDJkMDE3NWZiOGI2ZGU0OTYyZjI4MTBiZjcwZjI0MjRkZDIwNDdiNmQyYWE1MjliNmExZjk2Y2I5MjIxZWI1MDA5MWYzMDNhZjNmNjU3NDE1YmM4M2E5N2M1YWRiZWE2Nzg5ODQxNmU1YTY5NjBlOTNlMDhlN2Y5NmE1M2NlZGNiODU1MGQ3MzU2ZGEwM2UyNTMxMDQzNGNmZDI2MjdhNmUxMTIyN2FiYzA2ZjI2ODI1MTBhNGU1NWE4OWM1ODNjZjU3Njk1NWI4MjQyMTgwYWY2MTExIiwiYWxnb3JpdGhtIjoiRFMifSwicHJpbmNpcGFsIjp7ImVtYWlsIjoiZDBhYzMzZWI3NDA5NGVlYzgwY2YyMDAxNDk4ZDliYTRAYXBpLmFjY291bnRzLmZpcmVmb3guY29tIn0sImlhdCI6MTQ0NzgyMjQ5MzEyNywiZXhwIjoxNDQ3ODY1NzAzMTI3LCJmeGEtZ2VuZXJhdGlvbiI6MTQ0Nzc5MDgwMjcxMywiZnhhLWxhc3RBdXRoQXQiOjE0NDc4MjI0OTAsImZ4YS12ZXJpZmllZEVtYWlsIjoidGVzdGF6ZXJAbW9ja215aWQuY29tIiwiaXNzIjoiYXBpLmFjY291bnRzLmZpcmVmb3guY29tIn0.IBLMm1wrqjIbqwB4_Is18TRjDc0QkAtPq1y4Q5AnRelDwhB0_aUR5PmNYqqqHtMr2KyW7rvLb3vr3YakqgJOr65McvzA-nY1i39kCClEqpZUqGu5x28rKFaJSFGxwHPGvXe_kCc65SFpk2LWD6nNSuuFXJZjfAqqrbkZvUMYCIp-pcgD3YCSgjU3uE1N_v6e9hJoAg5HJ-UqBkBrtHo95iS4Y7cLwcwR_aSE2Yzox9qrzpYNQYLf4FV7wc9rM7gBFurq11TZ9fs2B_cJDUupcgXFoGNIW_O4kTZrWlrVvybjaCO9CZ3oJ3Do7OTwMY7NQp_4hMv099RZY0KydZJ8ew&quot;,&quot;keyPair&quot;:{&quot;publicKey&quot;:{&quot;g&quot;:&quot;457f67d77a16be6beb135f283211450cd04e25eddc6761b672733b2d546fbd1dd24a365180a709cd5b6579e74b715ac81f3942d0d08709c14340a71df9cfe14f28b51e8519061bee016655b404cc0c2f3f832d16774d72c900e851f0782bd1ca0c277a17733981d1d81268a8c66467996a096f5d6a56dca59c5c8b3c0fc9cdab&quot;,&quot;q&quot;:&quot;dbe8da8bf80e6c0d750833e892e1ca0ef1cbf701&quot;,&quot;y&quot;:&quot;757e6f648238055af4023821d0d342dda3db7c39e539036f9eed61ca716dc3395086d17e02a236fb10ed5796988e43ae5ce817a46e67b464734bee379a4920b5507736acfbc95824e828797f1a79b206744ed7cc57eff55bd2a221f118245f2a25a6706f149b624cd8babf89e7bc2a47c06646364726965e10542b20884a6479&quot;,&quot;p&quot;:&quot;c8dfeef78e39b1d5eaa35824a7db795a6a62e5c89d702d0175fb8b6de4962f2810bf70f2424dd2047b6d2aa529b6a1f96cb9221eb50091f303af3f657415bc83a97c5adbea67898416e5a6960e93e08e7f96a53cedcb8550d7356da03e25310434cfd2627a6e11227abc06f2682510a4e55a89c583cf576955b8242180af6111&quot;,&quot;algorithm&quot;:&quot;DS&quot;},&quot;privateKey&quot;:{&quot;g&quot;:&quot;457f67d77a16be6beb135f283211450cd04e25eddc6761b672733b2d546fbd1dd24a365180a709cd5b6579e74b715ac81f3942d0d08709c14340a71df9cfe14f28b51e8519061bee016655b404cc0c2f3f832d16774d72c900e851f0782bd1ca0c277a17733981d1d81268a8c66467996a096f5d6a56dca59c5c8b3c0fc9cdab&quot;,&quot;q&quot;:&quot;dbe8da8bf80e6c0d750833e892e1ca0ef1cbf701&quot;,&quot;p&quot;:&quot;c8dfeef78e39b1d5eaa35824a7db795a6a62e5c89d702d0175fb8b6de4962f2810bf70f2424dd2047b6d2aa529b6a1f96cb9221eb50091f303af3f657415bc83a97c5adbea67898416e5a6960e93e08e7f96a53cedcb8550d7356da03e25310434cfd2627a6e11227abc06f2682510a4e55a89c583cf576955b8242180af6111&quot;,&quot;x&quot;:&quot;8a67793eb963dde4cbb95fb66bca0e00d80d46b5&quot;,&quot;algorithm&quot;:&quot;DS&quot;}},&quot;email&quot;:&quot;testazer@mockmyid.com&quot;,&quot;verified&quot;:true,&quot;kB&quot;:&quot;77df230134547b792d5906f671f62352b43f5b7ce5c3b0a465bb6af7538f4eb4&quot;,&quot;kA&quot;:&quot;7daa67af6874278d89c0ea75c8ab459b806447f9c896cc207d5a52924322916a&quot;,&quot;version&quot;:3}"
+        android:layout_below="@+id/button"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parse"
+        android:id="@+id/button"
+        android:onClick="onClickParse"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_alignParentTop="true"/>
+</RelativeLayout>
